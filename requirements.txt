@@ -1,0 +1,16 @@
+# Dependencias de automacao (Robot Framework) - open source
+robotframework==7.2
+robotframework-seleniumlibrary==6.8.0
+robotframework-requests==0.9.7
+robotframework-pabot==2.18.0
+selenium==4.27.1
+# Necessario para carregar arquivos de variaveis .yaml (massa de dados e
+# ambiente) via --variablefile. Sem PyYAML o Robot falha ao processar os YAML.
+pyyaml==6.0.2
+webdriver-manager==4.0.2
+
+# Motor de self-healing da plataforma (opcional).
+# Instalado de indice privado; configure o indice e o token por variavel de
+# ambiente no CI/maquina do runner (nunca credencial neste arquivo). Ex.:
+#   pip install --index-url "$PRIVATE_INDEX_URL" qacoders-healing
+# qacoders-healing==1.0.0

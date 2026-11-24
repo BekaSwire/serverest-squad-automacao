@@ -1,0 +1,6 @@
+# Massa de teste — gerada pelo QaCoders Automation Agent.
+# Senhas e secrets NAO ficam aqui — usam variaveis de ambiente (.env).
+#
+# Carregar via: robot --variablefile data/Projeto QA/57-Teste_de_login.yaml --variablefile fixtures/environment/<produto>/<env>.yaml ...
+
+EMAIL: rebeca.swr@made.com.br

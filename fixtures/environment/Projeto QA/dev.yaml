@@ -1,0 +1,8 @@
+# Configuracao de ambiente — Projeto QA / DEV
+# Gerado automaticamente pelo Automation Agent.
+# Pode ser editado livremente; nao sera sobrescrito em geracoes futuras.
+
+BASE_URL: https://saas-automation.qacoders.dev.br
+TIMEOUT: 10s
+BROWSER: chrome
+HEADLESS: "false"
